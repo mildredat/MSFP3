@@ -3,8 +3,8 @@ cff-version: 1.2.0
 message: "Si utilizas este proyecto, cita el siguiente software."
 title: "MSFP3"
 authors:
-  - family-names: Torales
-    given-names: "Mildred Angel"
+  - family-names: Angel
+    given-names: "Mildred"
 version: 1.0.0
 date-released: 2026-11-04
 type: software
