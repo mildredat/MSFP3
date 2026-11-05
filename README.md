@@ -12,7 +12,7 @@ El caso de estudio representa el **sistema musculoesquelético** mediante un mod
 **Institución:** Tecnológico Nacional de México / Instituto Tecnológico de Tijuana  
 **Asignatura:** Modelado de Sistemas Fisiológicos  
 **Programa:** Ingeniería Biomédica  
-**Estudiante:** Carolina Gamez Flores · 23212193 · l23212193@tectijuana.edu.mx
+**Estudiante:** Mildred Angel Torales · 23212731 · l23212731@tectijuana.edu.mx
 
 **Repositorio de la asignatura:** https://github.com/DrPaulValle/MSF-IBF1020  
 **Sede:** Blvd. Alberto Limón Padilla s/n, Tijuana, C. P. 22454, B. C., México.
@@ -1162,9 +1162,9 @@ La incorporación del controlador PI modifica la dinámica del caso simulado de 
 Las ganancias empleadas son:
 
 $$
-k_P=0.0218624136400493,
+k_P=0.038181381978369,
 \qquad
-k_I=41509.2699941618.
+k_I=423767.5559547179.
 $$
 
 La acción proporcional e integral permite reducir el error de seguimiento y aproximar la respuesta del caso a la del individuo sano.
@@ -1289,9 +1289,9 @@ La práctica sigue una secuencia de **modelado, análisis, simulación, control 
 Las ganancias utilizadas para el controlador PI son:
 
 $$
-k_P=0.0218624136400493,
+k_P=0.038181381978369,
 \qquad
-k_I=41509.2699941618,
+k_I=23767.5559547179,
 \qquad
 k_D=0.
 $$
@@ -1319,20 +1319,7 @@ $$
 
 La organización de los archivos permite documentar el desarrollo matemático, la implementación computacional, la sintonización del controlador y los resultados de las simulaciones. La estructura propuesta para la entrega es:
 
-```text
-.
-├── README.md                             # Reporte y documentación
-├── CITATION.cff                          # Datos de citación (por incorporar)
-├── Análisis.pdf                          # Desarrollo matemático a mano
-├── Gamez23212193.mlx                     # Cuaderno computacional MATLAB
-├── Gamez23212193.pdf                     # Exportación del cuaderno MATLAB
-├── sistema.slx                           # Modelo Simulink/Simscape
-├── Gamez23212193.py                      # Implementación en Python
-├── Caso_matlab.pdf                       # Respuestas obtenidas en MATLAB
-├── Caso_python.pdf                       # Respuestas obtenidas en Python
-├── Controlador PI.png                    # Evidencia de sintonización
-└── Biorender_SistemaMusculoesqueletico.png # Diagrama biológico
-```
+
 
 **Criterio de nombres:** los archivos conservan las denominaciones utilizadas durante el desarrollo de la práctica. Las figuras correspondientes a MATLAB y Python presentan las respuestas de la entrada, el individuo sano, el caso simulado de atrofia muscular y el sistema controlado. Los archivos complementarios permiten conservar el análisis matemático, la representación fisiológica y los parámetros utilizados durante la sintonización. El archivo `CITATION.cff` deberá incorporarse si todavía no se encuentra disponible en el repositorio.
 
