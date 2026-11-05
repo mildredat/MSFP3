@@ -1318,7 +1318,22 @@ $$
 ## Estructura del repositorio
 
 La organización de los archivos permite documentar el desarrollo matemático, la implementación computacional, la sintonización del controlador y los resultados de las simulaciones. La estructura propuesta para la entrega es:
-
+```text
+├── AnálisisCuaderno_P3_Ángel23212731.pdf     # Documento de análisis del cuaderno de la práctica 3
+├── Ángel23212731_P3.mlx                      # Live Script de MATLAB
+├── Ángel23212731_P3.pdf                      # Reporte de la práctica 3 en PDF
+├── Ángel23212731_P3.py                       # Script de Python de la práctica 3
+├── CasoControl_py.png                        # Resultados del caso de control en Python
+├── LICENCIA                                  # Archivo de licencia del repositorio
+├── Practica3_MSF1_MAT.slx                    # Modelo de Simulink
+├── LÉAME.md                                  # Documentación principal del repositorio
+├── SistemaMusculoesqueletiuco_Diagrama.png   # Diagrama del sistema musculoesquelético
+├── citación.cff                              # Archivo de datos de citación
+├── matlab_Caso.pdf                           # Documento PDF de resultados en MATLAB
+├── matlab_EDOsys.pdf                         # Documento PDF con la resolución de EDOs en MATLAB
+├── sistemaME.eps                             # Imagen en formato vectorial (EPS) del sistema
+└── sistemaME.png                             # Imagen en formato PNG del sistema
+```
 
 
 **Criterio de nombres:** los archivos conservan las denominaciones utilizadas durante el desarrollo de la práctica. Las figuras correspondientes a MATLAB y Python presentan las respuestas de la entrada, el individuo sano, el caso simulado de atrofia muscular y el sistema controlado. Los archivos complementarios permiten conservar el análisis matemático, la representación fisiológica y los parámetros utilizados durante la sintonización. El archivo `CITATION.cff` deberá incorporarse si todavía no se encuentra disponible en el repositorio.
